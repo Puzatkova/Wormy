@@ -1,3 +1,3 @@
 Wormy
 =====
-[Комментарии]//github.com/Puzatkova/Wormy/issues/1)
+[Комментарии](https://github.com/Puzatkova/Wormy/issues/1)
