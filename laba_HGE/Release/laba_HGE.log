@@ -1,0 +1,48 @@
+﻿Сборка начата 22.06.2014 13:54:45.
+     1>Проект "E:\laba_HGE\laba_HGE\laba_HGE.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt laba_HGE.cpp
+         laba_HGE.cpp
+     1>e:\laba_hge\laba_hge\bot.h(32): warning C4305: *=: усечение из "double" к "float"
+     1>e:\laba_hge\laba_hge\bot.h(64): warning C4305: *=: усечение из "double" к "float"
+     1>laba_HGE.cpp(213): warning C4305: инициализация: усечение из "double" к "float"
+     1>laba_HGE.cpp(223): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): см. объявление "fopen"
+     1>laba_HGE.cpp(224): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+     1>laba_HGE.cpp(238): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): см. объявление "fopen"
+     1>laba_HGE.cpp(242): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230): см. объявление "fscanf"
+     1>laba_HGE.cpp(243): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230): см. объявление "fscanf"
+     1>laba_HGE.cpp(244): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230): см. объявление "fscanf"
+     1>laba_HGE.cpp(245): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230): см. объявление "fscanf"
+     1>laba_HGE.cpp(246): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230): см. объявление "fscanf"
+     1>laba_HGE.cpp(257): warning C4305: =: усечение из "double" к "float"
+     1>laba_HGE.cpp(274): warning C4305: аргумент: усечение из "double" к "float"
+     1>laba_HGE.cpp(301): warning C4305: аргумент: усечение из "double" к "float"
+     1>laba_HGE.cpp(357): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>laba_HGE.cpp(358): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>laba_HGE.cpp(395): warning C4018: <: несоответствие типов со знаком и без знака
+     1>laba_HGE.cpp(407): warning C4018: <: несоответствие типов со знаком и без знака
+     1>laba_HGE.cpp(422): warning C4305: -=: усечение из "double" к "float"
+     1>laba_HGE.cpp(451): warning C4305: аргумент: усечение из "double" к "float"
+     1>laba_HGE.cpp(457): warning C4018: <: несоответствие типов со знаком и без знака
+     1>laba_HGE.cpp(459): warning C4018: <: несоответствие типов со знаком и без знака
+     1>laba_HGE.cpp(502): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>laba_HGE.cpp(503): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\laba_HGE\Release\laba_HGE.exe" /INCREMENTAL:NO /NOLOGO hge.lib hgehelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\laba_HGE\Release\laba_HGE.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\laba_HGE\Release\laba_HGE.lib" /MACHINE:X86 /SAFESEH /SAFESEH:no Release\laba_HGE.obj
+         Release\main_g.obj
+         Release\player.obj
+         Создание кода
+         Создание кода завершено
+         laba_HGE.vcxproj -> E:\laba_HGE\Release\laba_HGE.exe
+     1>Сборка проекта "E:\laba_HGE\laba_HGE\laba_HGE.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.53
